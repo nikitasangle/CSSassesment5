@@ -1,0 +1,126 @@
+body{
+    background-color: #D1E8E4;
+}
+.heading{
+    text-align: center;
+    color: darkslategrey;
+}
+.skewx{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    margin-left: 20px;
+    display: inline-block;
+    animation-name: SQU;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes SQU{
+    50%{
+        transform: skew(30deg);
+    }
+    50%{
+        transform: skewX(40deg);
+    }
+
+}
+li{
+    margin-left: 428px;
+}
+.skewy{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(24, 81, 187, 0.836);
+    margin-left: 20px;
+    display: inline-block;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes one{
+    50%{
+        transform: skew(-30deg);
+    }
+    50%{
+        transform: skewY(30deg);
+    }
+}
+li{
+    margin-left: 428px;
+}
+.rotate{
+    height: 150px;
+    width: 150px;
+    background-color: darkcyan;
+    margin-left: 20px;
+    display: inline-block;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+li{
+    margin-left: 428px;
+}
+.square1{
+    background-color: #69DADB;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: Yscale;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: height 5s linear;
+}
+@keyframes Yscale {
+    50%{
+        transform: scaleY(1);
+    
+    }
+    90%{
+        transform: scaleY(-1);
+    }
+}
+
+.square2{
+    background-color: #69DADB;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation: Xscale 2s linear 0s infinite;
+}
+
+@keyframes Xscale {
+    100%{
+        transform: scaleX(1.5);
+    }
+}
+.square3{
+    background-color: #69DADB;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    animation-name: ro;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes ro {
+    100%{
+        transform: rotate(100deg);
+    }
+}
+.head2{
+    text-align: center;
+}
+
